@@ -28,7 +28,7 @@ npm install @newrelic/fastify
 
 ## Getting Started
 
-Add this module along with newrelic agent and you will see graphql schema type in the request show up as transacations in the Newrelic UI.
+Add this module along with newrelic agent and you will see fastfiy routes and http get/put/etc.. show up as web transacations in the Newrelic UI.
 ```
 // index.js
 require('@newrelic/fastify');
