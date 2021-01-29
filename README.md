@@ -1,6 +1,6 @@
 [![Experimental Project header](https://github.com/newrelic/opensource-website/raw/master/src/images/categories/Experimental.png)](https://opensource.newrelic.com/oss-category/#experimental)
 
-# newrelic-javascript-fastify - Instrumentation for fastify web framework
+# New Relic Javascript Instrumentation for Fastify
 
 Insttrumentation for Fastify web framework to be used with the
 [Node agent](https://github.com/newrelic/node-newrelic). This module adds instrumentation for http verbs and routes.
