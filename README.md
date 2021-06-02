@@ -2,24 +2,24 @@
 
 # New Relic Javascript Instrumentation for Fastify
 
-Insttrumentation for Fastify web framework to be used with the
-[Node agent](https://github.com/newrelic/node-newrelic). This module adds instrumentation for http verbs and routes.
+Instrumentation for the Fastify web framework to be used with the
+[Node agent](https://github.com/newrelic/node-newrelic). This module adds instrumentation for HTTP verbs and routes.
 
 ## Installation
 
-This module is dependent on the newrelic nodejs agent, It can be installed and loaded independenly based on spacific versioning needs.
+This module is dependent on the Newrelic Node.js agent, It can be installed and loaded independenly based on specific versioning needs.
 
 Newrelic agent:
 ```
 npm install newrelic
 ```
 
-fastify instrumentation module:
+Fastify instrumentation module:
 ```
 npm install @newrelic/fastify
 ```
 
-// for install from github, add the following in  package.json
+// to install from github, add the following in package.json
 ```
 "dependencies": {
   "@newrelic/fastify": "github:newrelic-experimental/newrelic-javascript-fastify"
@@ -28,7 +28,7 @@ npm install @newrelic/fastify
 
 ## Getting Started
 
-Add this module along with newrelic agent and you will see fastfiy routes and http get/put/etc.. show up as web transacations in the Newrelic UI.
+Add this module along with newrelic agent and you will see Fastify routes and HTTP verbs GET/PUT/etc.. show up as web transactions in the Newrelic UI.
 ```
 // index.js
 require('@newrelic/fastify');
